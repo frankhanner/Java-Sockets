@@ -1,14 +1,12 @@
 ## Java Sockets
 
 ### Overview
-This allows new users to get acquainted with sockets in Java. Commands will be sent
-to a server, and then echoed.
+This allows new users to get acquainted with sockets in Java. Send Linux/Unix 
+commands from a client to a remote host to be executed and echoed.
 
-### Why
-Give insight to new users of Java who are trying to learn Sockets
+In this specific example, SSL is being used on port 12500.
 
 ### Use
-
-To Be Written.
-
-For now run server code on server, and client code on client.
+Compile and run Server.java on a localhost server.
+Compile and run Client.java on PC.
+Type commands from client and see them executed on the remote server.
